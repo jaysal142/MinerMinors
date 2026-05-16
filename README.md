@@ -76,28 +76,6 @@ Source/MinorMiners/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Unreal Engine 5.6
-- Visual Studio 2022 with the **Game Development with C++** workload
-
-### Setup
-
-```bash
-git clone https://github.com/jaysal142/MinerMinors.git
-cd MinerMinors
-```
-
-1. Right-click `MinorMiners.uproject` → **Generate Visual Studio project files**
-2. Open `MinorMiners.sln` in Visual Studio
-3. Set build target to **Development Editor | Win64** and build (`Ctrl+Shift+B`)
-4. Open `MinorMiners.uproject` in Unreal Engine 5.6
-
-> **Note:** The `Content/` folder is excluded from version control (binary assets are too large for Git). You will need to source or recreate content assets locally.
-
----
-
 ## Known Limitations / In-Progress
 
 - `ARegrowingHarvestableActorBase::OnDayChange()` is written but not yet subscribed to a day-cycle delegate — regrowth timing requires wiring up to a game-mode day system.
